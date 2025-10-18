@@ -1,0 +1,75 @@
+/* --- Reset básico --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Tipografía y cuerpo --- */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* --- Navegación --- */
+nav {
+  background-color: #222;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* --- Secciones --- */
+.section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.section article {
+  max-width: 600px;
+  margin: 1rem auto;
+  background: rgba(255,255,255,0.2);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* --- Colores distintos por sección --- */
+.section-ingredientes {
+  background-color: #ffeaa7; /* Amarillo claro */
+}
+
+.section-receta {
+  background-color: #81ecec; /* Azul verdoso */
+}
+
+.section-resultado {
+  background-color: #fab1a0; /* Rosa salmón */
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
